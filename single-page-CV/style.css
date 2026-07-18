@@ -34,12 +34,22 @@ h1 {
     letter-spacing: -0.5px;
 }
 
-/* Subtítulo (Junior Frontend Developer) */
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+/* Subtítulo (Desarrollador Front-end) */
 .sub-title {
-    color: #4cd164; /* Verde brillante de la plantilla */
+    color: #000000; /* Verde brillante de la plantilla */
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    
 }
 
 /* Bloque de datos de contacto */
