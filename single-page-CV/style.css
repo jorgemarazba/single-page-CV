@@ -1,0 +1,96 @@
+/* Configuración general y tipografía limpia */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.5;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* CONTENEDOR PRINCIPAL: Añade la línea alrededor de todo el texto */
+.resume-container {
+    max-width: 750px;
+    margin: 0 auto;
+    border: 2px solid #111111; /* Línea negra exterior */
+    padding: 40px; /* Espacio entre el borde y el texto */
+    box-sizing: border-box;
+}
+
+/* Línea decorativa superior */
+hr {
+    border: none;
+    border-top: 2px solid #333333;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Título principal (Tu Nombre) */
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #111111;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5px;
+}
+
+/* Subtítulo (Junior Frontend Developer) */
+.sub-title {
+    color: #4cd164; /* Verde brillante de la plantilla */
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Bloque de datos de contacto */
+.contact-info {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+/* Encabezados de secciones principales (Skills, Education, Experience, etc.) */
+h2 {
+    color: #4cd164; /* Mismo tono verde */
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Títulos de las empresas, colegios o proyectos */
+h3 {
+    color: #3b82f6; /* Azul brillante de la plantilla */
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+/* Textos generales, listas y descripciones */
+p, ul {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para viñetas limpias */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Enlaces (Redes Sociales) */
+a {
+    color: #3b82f6;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #2563eb;
+}
